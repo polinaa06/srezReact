@@ -1,0 +1,261 @@
+* {
+  transition: .5s;
+}
+
+.bg-body-tertiary {
+  padding: 40px 0;
+  --bs-bg-opacity: 0;
+}
+
+.catalog {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: black;
+}
+
+.title-block {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.form-control {
+  width: 300px;
+  background: transparent;
+  border: 1.5px solid rgb(90, 114, 84);
+}
+
+.sort {
+  background: transparent;
+  border: 1.5px solid rgb(83, 83, 83);
+  border-radius: 10px;
+  padding: 7px 10px;
+}
+
+.search {
+  background: transparent;
+  border: 1.5px solid rgb(83, 83, 83);
+  border-radius: 10px;
+  padding: 7px 10px;
+  outline: none;
+}
+
+.catalog-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.card {
+  width: 420px;
+}
+
+.item-link {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-link a {
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.item-link a:hover {
+  opacity: 0.5;;
+}
+
+.item-link p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.categories_btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.categories_btn .btn {
+  border: 1.5px solid transparent;
+  padding: 7px 15px;
+  transition: .5s;
+}
+
+.categories_btn .btn:hover {
+  border: 1.5px solid rgb(83, 83, 83);
+}
+
+.categories p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.error {
+  font-size: 20px;
+  padding-top: 70px;
+  height: 1000px;
+  text-align: center;
+}
+
+.me-auto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.me-auto .header-link {
+  color: gray;
+  text-decoration: none;
+}
+
+.text-muted {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.banner {
+  background: url(https://img.freepik.com/free-photo/close-up-portrait-attractive-male-model-color-flash-light_158595-5120.jpg?t=st=1731567554~exp=1731571154~hmac=d178323221997fce8e5be06fe532985b2c95b38690b4a41db88da652f70580cf&w=1380);
+  background-size: cover;
+  background-position: 0 -140px;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+}
+
+.gallery {
+  padding: 70px 0;
+}
+
+.gallery h2 {
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.slider-container {
+  width: 1300px;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+  font-size: 24px;
+}
+
+.slide img {
+  width: 380px;
+  height: 600px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.slick-slide.slick-center .slide img {
+  opacity: 1;
+}
+
+.faq {
+  padding-bottom: 100px;
+}
+
+.faq h2 {
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.accordeon {
+  width: 1300px;
+  margin: 70px auto;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(95, 95, 95);
+  color: white;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.item-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-block p {
+  color: rgb(95, 95, 95);
+  margin: 0;
+}
+
+.more-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.more-link:hover {
+  gap: 20px;
+}
+
+.more-link p {
+  font-size: 22px;
+  color: rgb(83, 83, 83);
+  margin: 0;
+}
+
+.text-muted-link {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
