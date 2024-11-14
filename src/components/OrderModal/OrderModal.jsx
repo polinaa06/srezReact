@@ -14,8 +14,8 @@ export function OrderModal({ modalIsOpen, setModalIsOpen }) {
                     <h2>Оформить заказ</h2>
                     <form className={s.form}>
                         <div className={s.form_input}>
-                            <label htmlFor="">Введите почту</label>
-                            <input type="text" placeholder='Email' name='email' />
+                            <label htmlFor="">Введите номер телефона</label>
+                            <input type="text" placeholder='Номер телефона' name='email' />
                         </div>
 
                         <div className={s.form_input}>
